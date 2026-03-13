@@ -1,0 +1,10 @@
+{
+  "headers": [
+    {
+      "source": "/apk/(.*)",
+      "headers": [
+        { "key": "Content-Disposition", "value": "attachment" }
+      ]
+    }
+  ]
+}
